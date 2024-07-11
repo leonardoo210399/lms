@@ -52,7 +52,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
         if(nextChapterId){
           router.push(`/courses/${courseId}/chapters/${nextChapterId}`);
         }
-      }
+      }router.refresh();
     } catch (error) {
       toast.error("Something went wrong");
     }
