@@ -74,7 +74,7 @@ const ChapterIdPage = async ({
                 <span>Complete all fields {completionText}</span>
               </div>
               <ChapterActions
-                disabled={!isComplete}
+                disable={!isComplete}
                 courseId={params.courseId}
                 chapterId={params.chapterId}
                 isPublished={chapter.isPublished}
