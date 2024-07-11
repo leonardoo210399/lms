@@ -96,8 +96,9 @@ const CategoryForm = ({ initialData, courseId, options }: CategoryFormProps) => 
                         <FormItem>
                             <FormControl>
                                 <ComboBox
-                                  options={...options}
-                                  {...field}
+                                  options={options}
+                                  onChange={field.onChange}
+                                  value={field.value}
                                 />
                             </FormControl>
                             <FormMessage/>
