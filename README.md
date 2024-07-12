@@ -1,6 +1,4 @@
 
-
-```markdown
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
 </p>
@@ -125,7 +123,6 @@ LMS (Learning Management System) is a platform to manage and deliver educational
     ├── tailwind.config.js
     └── utils
         └── database.js
-```
 
 ---
 
