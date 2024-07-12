@@ -123,7 +123,7 @@ LMS (Learning Management System) is a platform to manage and deliver educational
     ├── tailwind.config.js
     └── utils
         └── database.js
-
+```
 ---
 
 ##  Modules
